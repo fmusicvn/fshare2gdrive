@@ -21,7 +21,7 @@ fshare_login()
     return 1
   else
     printf "\n${red}User ${fshare_username} login failed! ${nc}\n" >&2
-    return 0
+    return 0tẻt
   fi
 }
 fshare_login $1 $2
